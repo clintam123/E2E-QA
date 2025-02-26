@@ -5,6 +5,9 @@ In this project, we will build a end-to-end question answering system based on t
 - Retriever: The component that queries documents relevant to the question in the database.
 - Reader: Based on the queried documents and the input question, it extracts the text span containing the most accurate answer and sends it to the user.
 
+## Technologies
+- BERT, FAISS, transformers
+
 ## Notebooks
 
 - HF_Faiss_Search: notebook about building a FAISS index on SQuAD2.0 dataset
@@ -18,3 +21,13 @@ In this project, we will build a end-to-end question answering system based on t
 ## Faiss pipeline
 
 ![faiss-pipeline](images/faiss-pipeline.png)
+
+## How to run
+1. Install dependencies
+```bash
+pip install requirements.py
+```
+2. Run app.py
+```bash
+python app.py
+```
